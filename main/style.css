@@ -33,7 +33,7 @@ nav a:hover{
 }
 
 .banner{
-  background-image: image();
+  background-image: url();
   color: black;
   font-size: 25px;
   text-align: center;
