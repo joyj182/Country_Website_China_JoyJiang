@@ -33,14 +33,20 @@ nav a:hover{
 }
 
 .banner{
-  background-image: url();
-  color: black;
-  font-size: 25px;
-  text-align: center;
-  align-items: center;
-  height: 200px;
+  background-image: url("images/chinacity.jpg");
+  background-size: contain;
+  height: 500px;
+ 
+
+ 
 }
 
+.banner h1{
+  color: white;
+  font-size: 60px;
+  align-items: center;
+  justify-content: center;
+}
 .main{
   font-size: larger;
   color: blue;
