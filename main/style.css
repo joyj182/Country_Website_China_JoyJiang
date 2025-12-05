@@ -10,6 +10,7 @@ nav{
   padding:5px;
   flex: 1;
   justify-content: center;
+  background-color: rgb(56, 56, 224);
 }
 nav a{
   color: black;
@@ -30,25 +31,28 @@ a{
 
 nav a:hover{
   border-bottom: 2px solid red ;
+
 }
 
-.banner{
+#banner{
   background-image: url("images/chinacity.jpg");
-  background-size: contain;
-  height: 500px;
- 
-
- 
-}
-
-.banner h1{
-  color: white;
-  font-size: 60px;
-  align-items: center;
-  justify-content: center;
-}
-.main{
-  font-size: larger;
-  color: blue;
+  background-size: 100% 100% ;
+  background-repeat: no-repeat;
+  height: 900px;
   
+}
+
+#banner {
+  justify-content: center;
+  align-items: center;
+  color: rgb(202, 13, 13);
+  font-size: 60px;
+  text-align: center;
+}
+
+#about img{
+  border: 5px;
+  padding: 200px;
+  height: 350px;
+  width: 500px;
 }
