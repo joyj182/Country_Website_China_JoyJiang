@@ -10,10 +10,10 @@ nav{
   padding:5px;
   flex: 1;
   justify-content: center;
-  background-color: rgb(56, 56, 224);
+  background-color: rgb(28, 28, 94);
 }
 nav a{
-  color: black;
+  color: red;
   font-size: 20px;
   margin:0 10px 0 10px;
   display:inline-block;
@@ -30,7 +30,7 @@ a{
 }
 
 nav a:hover{
-  border-bottom: 2px solid red ;
+  border-bottom: 2px solid gold ;
 
 }
 
@@ -51,8 +51,13 @@ nav a:hover{
 }
 
 #about img{
-  border: 5px;
-  padding: 200px;
+  padding: 90px;
   height: 350px;
   width: 500px;
+
 }
+#about p{
+  font-size: 25px;
+  padding: 90px;
+}
+
