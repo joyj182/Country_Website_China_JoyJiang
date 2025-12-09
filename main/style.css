@@ -64,7 +64,7 @@ nav a:hover{
   height: 350px;
   width: 500px;
   max-width: 450px;
-  align-items: center;
+  justify-content: center;
 }
 
 #about .des{
