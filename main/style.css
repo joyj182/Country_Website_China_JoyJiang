@@ -1,16 +1,20 @@
 
 .container{
     display: flex;
-    
+   
 }
 
+.container div{
+  flex: 1;
+}
 
+/* Navagation bar */
 
 nav{
   padding:5px;
   flex: 1;
   justify-content: center;
-  background-color: rgb(28, 28, 94);
+  background-color: rgb(18, 18, 63);
 }
 nav a{
   color: red;
@@ -23,6 +27,7 @@ nav a{
 
 *{
   font-family: Monospace;
+  /*background-color: #8B9EB7;*/
 }
 
 a{
@@ -30,10 +35,11 @@ a{
 }
 
 nav a:hover{
-  border-bottom: 2px solid gold ;
+  border-bottom: 2px solid rgb(253, 220, 30) ;
 
 }
 
+/* TiTle */
 #banner{
   background-image: url("images/chinacity.jpg");
   background-size: 100% 100% ;
@@ -50,14 +56,23 @@ nav a:hover{
   text-align: center;
 }
 
+/* Flag and map */
+
 #about img{
-  padding: 90px;
+  padding-top: 90px;
+  border-radius: 2px;
   height: 350px;
   width: 500px;
-
-}
-#about p{
-  font-size: 25px;
-  padding: 90px;
+  max-width: 450px;
+  align-items: center;
 }
 
+#about .des{
+  font-size: 20px;
+  text-align: center;
+}
+
+#about{
+  justify-content: center;
+  align-items: center;
+}
