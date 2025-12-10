@@ -27,7 +27,10 @@ nav a{
 
 *{
   font-family: Monospace;
+  background-color: #8B9EB7;
+  /*background-color: #e8edf3;*/
   /*background-color: #8B9EB7;*/
+
 }
 
 a{
@@ -58,21 +61,46 @@ nav a:hover{
 
 /* Flag and map */
 
+
 #about img{
-  padding-top: 90px;
-  border-radius: 2px;
+  
+  border: 2px solid black;
   height: 350px;
   width: 500px;
   max-width: 450px;
   justify-content: center;
-}
 
-#about .des{
-  font-size: 20px;
-  text-align: center;
 }
 
 #about{
   justify-content: center;
   align-items: center;
+  padding-top: 90px;
+}
+
+figure{
+  text-align: center;
+  width: fit-content;
+  margin: 0 auto;
+
+}
+
+figure img{
+  display: block;
+  
+}
+
+figcaption{
+  margin-top: 8px;
+  font-size: 20px;
+}
+
+/* description about china + some cool pictures */
+
+/* Footer */
+#footer{
+   color:white;
+   background-color: rgb(18, 18, 63);
+   align-items: center;
+   height: 20px;
 }
