@@ -65,15 +65,26 @@ nav a:hover{
 
 #facts img{
   height: 500px;
-  width: 1000px;
-  /*border: double;*/
+  width: 900px;
+  border: double;
+}
+#w{
+  border: solid;
+  background-color: rgba(255, 36, 36, 0.63);
+
+  font-size: 20px;
+  
+  
 }
 
-
-
 #facts{
-  padding-top: 90px;
+  
 
+}
+
+ .x{
+  padding-top: 90px;
+  
 }
 
 
