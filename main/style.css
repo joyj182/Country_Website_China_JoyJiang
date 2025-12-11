@@ -139,14 +139,17 @@ figcaption{
   background-color: #ffc400
   /*background-color: rgb(15, 18, 61);*/
 }
-nav a{
-  color: red;
-  font-size: 20px;
-  margin:0 10px 0 10px;
-  display:inline-block;
-  width:20%;
-  text-align:center;
+
+nav #a1:hover{
+  border-bottom: 2px solid rgb(255, 255, 255) ;
+
 }
+
+#body1{
+  background-color: #fce7d0;
+
+}
+ 
 #banner2{
   background-image: url("images/gardencity.jpg");
   height: 900px;
@@ -161,10 +164,13 @@ nav a{
   text-align: center;
 }
 
+/* About */
 
-
-
-
+#facts2 img{
+  height: 500px;
+  width: 900px;
+  border: double;
+}
 
 
 
@@ -207,7 +213,7 @@ nav a{
 /* Footer */
 #footer{
    color:white;
-   background-color: #001B3A;
+   background-color: #75b5ff;
    align-items: center;
    height: 20px;
 }
