@@ -1,3 +1,4 @@
+
 /* All */
 .container{
     display: flex;
@@ -10,8 +11,6 @@
 
 body{
   font-family: Monospace;
-  /*background-color: #8B9EB7;*/
-  /*background-color: #e8edf3;*/
   background-color: #6f6f85;
 
 }
@@ -23,7 +22,7 @@ nav{
   flex: 1;
   justify-content: center;
   background-color: #001B3A
-  /*background-color: rgb(15, 18, 61);*/
+  
 }
 nav a{
   color: red;
@@ -45,6 +44,7 @@ nav a:hover{
 }
 
 /* TiTle */
+
 #banner{
   background-image: url("images/chinacity.jpg");
   background-size: 100% 100% ;
@@ -76,12 +76,12 @@ nav a:hover{
 }
 
 
+
 #a{
   border: solid;
-  background-color: rgba(206, 185, 255, 0.856);
+  background-color: rgba(165, 148, 206, 0.856);
   font-size: 20px;
-  
-  
+  border-radius: 20px;
 }
 
 #facts{ 
@@ -95,7 +95,8 @@ nav a:hover{
 
 #about img{
   
-  border: 2px  ;
+  border: solid  ;
+  border-radius: 10px;
   height: 300px;
   width: 500px;
   max-width: 450px;
@@ -130,7 +131,10 @@ figcaption{
   font-size: 20px;
 }
 
+
+
 /* Culture */
+
 
 #bar2{
   padding:5px;
@@ -154,9 +158,6 @@ nav #a1:hover{
   background-image: url("images/gardencity.jpg");
   height: 900px;
   background-size: 100% 100%;
-  /*background-size: 100% 100% ;
-  background-repeat: no-repeat;
-  height: 900px;*/
   justify-content: center;
   align-items: center;
   color: rgb(253, 236, 0);
@@ -172,7 +173,45 @@ nav #a1:hover{
   border: double;
 }
 
+#facts2{
+  padding-top: 50px;
+}
 
+#b{
+  border: solid;
+  background-color: rgba(236, 255, 168, 0.856);
+  font-size: 20px;
+  border-radius: 20px;
+}
+
+/* Gallery */
+
+#head{
+  padding-top: 30px ;
+  text-decoration: underline;
+  color: rgb(214, 139, 1);
+}
+
+#about2 img{
+  
+  border: solid  ;
+  border-radius: 10px;
+  height: 300px;
+  width: 500px;
+  max-width: 450px;
+  justify-content: center;
+
+}
+
+#about2{
+  justify-content: center;
+  align-items: center;
+  padding-top: 25px;
+}
+#about2 img:hover{
+  transform:scale(1.2) ;
+  transition-duration: 2s;
+}
 
 
 
@@ -213,7 +252,8 @@ nav #a1:hover{
 /* Footer */
 #footer{
    color:white;
-   background-color: #75b5ff;
+   background-color: #7e7e7e;
    align-items: center;
-   height: 20px;
+   justify-content: center;
+   height: 30px;
 }
