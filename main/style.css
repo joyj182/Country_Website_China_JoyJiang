@@ -207,6 +207,54 @@ nav #a1:hover{
   transition-duration: 2s;
 }
 
+/* Attractions*/
+
+#c{
+  border: solid;
+  background-color: rgba(236, 255, 168, 0.856);
+  font-size: 20px;
+  border-radius: 20px;
+}
+
+#bar2{
+  padding:5px;
+  flex: 1;
+  justify-content: center;
+  background-color: #ffc400;
+  /*background-color: rgb(15, 18, 61);*/
+}
+
+nav #a1:hover{
+  border-bottom: 2px solid rgb(255, 255, 255) ;
+
+}
+
+#body2{
+  background-color: #e9fcd0;
+
+}
+ 
+#banner3{
+  background-image: url("images/greatwall.jpg");
+  height: 900px;
+  background-size: 100% 100%;
+  justify-content: center;
+  align-items: center;
+  color: rgb(253, 236, 0);
+  font-size: 60px;
+  text-align: center;
+}
+
+
+
+
+
+
+
+
+
+
+
 
 
 /* Footer */
