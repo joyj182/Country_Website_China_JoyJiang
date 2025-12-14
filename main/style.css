@@ -334,14 +334,10 @@ nav #a3:hover{
 .food img {
     width: 250px;
     height: auto;
-    filter: grayscale(100%);
     border: 2px solid;
 }
 
-.food img:hover{
-  filter: none;
-  transition: 1.5s;
-}
+
 .food .text {
     padding: 15px;
 }
