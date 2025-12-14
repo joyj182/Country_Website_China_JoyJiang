@@ -132,7 +132,7 @@ figcaption{
   padding:5px;
   flex: 1;
   justify-content: center;
-  background-color: #ffc400;
+  background-color: #ffa600;
   /*background-color: rgb(15, 18, 61);*/
 }
 
@@ -209,6 +209,11 @@ nav #a1:hover{
 
 /* Attractions*/
 
+#body2{
+  background-color: #f0fcd0;
+
+}
+
 #c{
   border: solid;
   background-color: rgba(236, 255, 168, 0.856);
@@ -216,36 +221,62 @@ nav #a1:hover{
   border-radius: 20px;
 }
 
-#bar2{
+#bar3{
   padding:5px;
   flex: 1;
   justify-content: center;
-  background-color: #ffc400;
+  background-color: rgb(252, 255, 77);
   /*background-color: rgb(15, 18, 61);*/
 }
 
-nav #a1:hover{
+nav #a2:hover{
   border-bottom: 2px solid rgb(255, 255, 255) ;
-
-}
-
-#body2{
-  background-color: #e9fcd0;
 
 }
  
 #banner3{
-  background-image: url("images/greatwall.jpg");
+  background-image: url("images/forbiddencity.webp");
   height: 900px;
   background-size: 100% 100%;
   justify-content: center;
   align-items: center;
-  color: rgb(0, 202, 253);
+  color: rgb(249, 253, 0);
   font-size: 60px;
   text-align: center;
 }
 
-/* About */
+/*info*/
+
+.attractions {
+    padding: 20px;
+}
+
+.attraction {
+    background-color: white;
+    display: flex;
+    margin-bottom: 20px;
+    border-radius: 5px;
+    overflow: hidden;
+}
+
+.attraction img {
+    width: 250px;
+    height: auto;
+    filter: grayscale(100%);
+}
+
+.attraction img:hover{
+  filter: none;
+  transition: 1.5s;
+}
+.attraction .text {
+    padding: 15px;
+}
+
+.location {
+    font-style: italic;
+    color: #555555;
+}
 
 
 
