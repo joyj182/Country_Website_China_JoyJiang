@@ -225,12 +225,12 @@ nav #a1:hover{
   padding:5px;
   flex: 1;
   justify-content: center;
-  background-color: rgb(252, 255, 77);
+  background-color: rgb(253, 255, 113);
   /*background-color: rgb(15, 18, 61);*/
 }
 
-nav #a2:hover{
-  border-bottom: 2px solid rgb(255, 255, 255) ;
+nav .a2:hover{
+  border-bottom: 2px solid rgb(255, 174, 0) ;
 
 }
  
@@ -263,6 +263,7 @@ nav #a2:hover{
     width: 250px;
     height: auto;
     filter: grayscale(100%);
+    border: 2px solid;
 }
 
 .attraction img:hover{
@@ -270,6 +271,78 @@ nav #a2:hover{
   transition: 1.5s;
 }
 .attraction .text {
+    padding: 15px;
+}
+
+.location {
+    font-style: italic;
+    color: #555555;
+}
+
+/* FOOD */
+
+#body3{
+  background-color: #f0fcd0;
+
+}
+
+#d{
+  border: solid;
+  background-color: rgba(236, 255, 168, 0.856);
+  font-size: 20px;
+  border-radius: 20px;
+}
+
+#bar4{
+  padding:5px;
+  flex: 1;
+  justify-content: center;
+  background-color: rgb(178, 255, 77);
+  /*background-color: rgb(15, 18, 61);*/
+}
+
+nav #a3:hover{
+  border-bottom: 2px solid rgb(255, 255, 255) ;
+
+}
+/* 
+#banner4{
+  background-image: url("images/food.jpg");
+  height: 800px;
+  background-size: 100% 100%;
+  justify-content: center;
+  align-items: center;
+  color: rgb(0, 0, 0);
+  font-size: 60px;
+  text-align: center;
+}
+*/
+/*info*/
+
+.food {
+    padding: 20px;
+}
+
+.food {
+    background-color: white;
+    display: flex;
+    margin-bottom: 20px;
+    border-radius: 5px;
+    overflow: hidden;
+}
+
+.food img {
+    width: 250px;
+    height: auto;
+    filter: grayscale(100%);
+    border: 2px solid;
+}
+
+.food img:hover{
+  filter: none;
+  transition: 1.5s;
+}
+.food .text {
     padding: 15px;
 }
 
@@ -286,8 +359,6 @@ nav #a2:hover{
 
 
 
-
-
 /* Footer */
 #footer{
    color:white;
@@ -295,4 +366,5 @@ nav #a2:hover{
    align-items: center;
    justify-content: center;
    height: 30px;
+   
 }
