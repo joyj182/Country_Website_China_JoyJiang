@@ -260,8 +260,8 @@ nav .a2:hover{
 }
 
 .attraction img {
-    width: 250px;
-    height: auto;
+    width: 490px;
+    height: 300px;
     filter: grayscale(100%);
     border: 2px solid;
 }
@@ -272,6 +272,7 @@ nav .a2:hover{
 }
 .attraction .text {
     padding: 15px;
+    font-size: 20px;
 }
 
 .location {
@@ -282,13 +283,13 @@ nav .a2:hover{
 /* FOOD */
 
 #body3{
-  background-color: #f0fcd0;
+  background-color: rgba(218, 207, 179, 0.856);
 
 }
 
 #d{
   border: solid;
-  background-color: rgba(236, 255, 168, 0.856);
+  background-color: rgba(163, 155, 119, 0.856);
   font-size: 20px;
   border-radius: 20px;
 }
@@ -297,22 +298,25 @@ nav .a2:hover{
   padding:5px;
   flex: 1;
   justify-content: center;
-  background-color: rgb(178, 255, 77);
-  /*background-color: rgb(15, 18, 61);*/
+  background-color: rgb(158, 133, 85);
+}
+
+nav #a3{
+  color:#c1dfa1;
 }
 
 nav #a3:hover{
-  border-bottom: 2px solid rgb(255, 255, 255) ;
+  border-bottom: 2px solid white ;
 
 }
 
 #banner4{
-  background-image: url("images/foood.webp");
+  background-image: url("images/food3.webp");
   height: 800px;
   background-size: 100% 100%;
   justify-content: center;
   align-items: center;
-  color: rgb(0, 0, 0);
+  color: rgb(194, 131, 72);
   font-size: 60px;
   text-align: center;
 }
@@ -331,17 +335,18 @@ nav #a3:hover{
 }
 
 .food img {
-    width: 250px;
-    height: auto;
+    width: 500px;
+    height: 300;
     border: 2px solid;
 }
 
 
-.food .text {
+.food  .text2{
     padding: 15px;
+    font-size: 20px;
 }
 
-.location {
+.where {
     font-style: italic;
     color: #555555;
 }
