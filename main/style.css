@@ -72,7 +72,7 @@ nav a:hover{
 #a{
   border: solid;
   background-color: rgba(165, 148, 206, 0.856);
-  font-size: 20px;
+  font-size: 40px;
   border-radius: 20px;
 }
 
@@ -86,7 +86,6 @@ nav a:hover{
 
 
 #about img{
-  
   border: solid  ;
   border-radius: 10px;
   height: 300px;
@@ -104,6 +103,7 @@ nav a:hover{
 #about img:hover{
   transform:scale(1.2) ;
   transition-duration: 2s;
+  
 }
 
 figure{
@@ -133,7 +133,6 @@ figcaption{
   flex: 1;
   justify-content: center;
   background-color: #ffa600;
-  /*background-color: rgb(15, 18, 61);*/
 }
 
 nav #a1:hover{
@@ -172,7 +171,7 @@ nav #a1:hover{
 #b{
   border: solid;
   background-color: rgba(236, 255, 168, 0.856);
-  font-size: 20px;
+  font-size: 30px;
   border-radius: 20px;
 }
 
@@ -321,6 +320,12 @@ nav #a3:hover{
   text-align: center;
 }
 /*info*/
+
+.head2{
+  padding: 20px;
+  font-size: 20px;
+  text-decoration: underline;
+}
 
 .food {
     padding: 20px;
